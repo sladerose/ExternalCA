@@ -21,7 +21,7 @@
         </customHeader>
         <f:DynamicPage headerExpanded="true" preserveHeaderStateOnScroll="true" fitContent="true">
             <f:content>
-                <IconTabBar id="idIconTabBar" expanded="true" stretchContentHeight="true" class="sapUiResponsiveContentPadding">
+                <IconTabBar id="idIconTabBar" expanded="true" stretchContentHeight="true" headerMode="Inline" tabDensity="Compact" class="sapUiResponsiveContentPadding">
                     <items>
                         <IconTabFilter icon="sap-icon://alert" text="{i18n>siteMonitoring}" key="monitoring">
                             <VBox class="sapUiContentPadding">
